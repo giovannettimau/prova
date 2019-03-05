@@ -10,8 +10,18 @@
   	<description></description>
   	<servlet-class>org.sincrono.corso.Miaservelet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>My2servlet</servlet-name>
+  	<display-name>My2servlet</display-name>
+  	<description></description>
+  	<servlet-class>org.sincrono.corso.My2servlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Miaservelet</servlet-name>
   	<url-pattern>/Miaservelet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>My2servlet</servlet-name>
+  	<url-pattern>/My2servlet</url-pattern>
   </servlet-mapping>
 </web-app>
