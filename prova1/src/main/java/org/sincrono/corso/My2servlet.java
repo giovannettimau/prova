@@ -7,9 +7,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class Miaservelet
+ * Servlet implementation class My2servlet
  */
-public class Miaservelet extends HttpServlet {
+public class My2servlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	/**
